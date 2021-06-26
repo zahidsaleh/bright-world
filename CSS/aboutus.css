@@ -1,0 +1,33 @@
+.about-section{
+    background-color: white;
+    font-weight: 600;
+}
+.container{
+    background-color: white;
+}
+h2{
+    font-weight: bold;
+}
+h3{
+    font-weight: bold;
+}
+img{
+    border-radius: 50%;
+}
+.team-img{
+    height: 220px;
+    width: 220px;
+}
+@media(max-width: 768px){
+    .aboutlogo{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        position: relative;
+        left: 100px;
+        margin-bottom: 30px;
+    }
+    .col-md-9 p{
+        text-align: justify;
+    }
+} 

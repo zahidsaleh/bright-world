@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home &mdash; Bright World</title>
+    <script src="./jQuery/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./CSS/mylayout.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.6.3-web/css/all.min.css">
+    <link rel="icon" href="./img/icon.png">
+</head>
+<body>
+    <!-- Start of the Header of the Page -->
+    <div class="container-fluid"  style="margin-bottom:0px;">
+        <img src="./img/logo.jpg" alt="Bright World" class="logo float-left">
+        <h1 class="display-4 slogan headersizetochange">Bright World</h1>
+        <p class="lead slogan parasizetochange">Let's see the World in a better Way!!!</p>
+    </div>
+
+    <nav class="navbar navbar-expand-md sticky-top menu navbar-dark">
+        <a class="navbar-brand" href="#"><img src="./img/icon.png" alt="" class="mylogo"></a>
+        <a href="#"><span class="navbar-text lead tohide">Bright World</span></a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Shop Now
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./LED.html">LEDs</a>
+                <a class="dropdown-item" href="#">Bulbs</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Spot Lights</a>
+                <a class="dropdown-item" href="#">Decoration Lights</a>
+                <a class="dropdown-item" href="#">Smart Lights</a>
+              </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="aboutus.html">About US</a></li>
+            <li class="nav-item"><a class="nav-link" href="contactus.html">Contact US</a></li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2 sizedec" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary my-2 my-sm-0 sizedec" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    <!-- End of the Header of the page -->
+
+      <!-- Start of the Slide Show -->
+      <div id="carouselExampleIndicators" class="carousel slide myslidesection" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="./imgs/Light-Bulb-Backgrounds-HD.jpg" alt="First slide">
+              <div class="carousel-caption d-none d-md-block">
+                      <h5>Light Bulbs</h5>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et culpa, molestias provident architecto dolores veritatis?</p>
+                  </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/decoration lights/decoration (13).jpg" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                      <h5>Decoration Lights</h5>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et culpa, molestias provident architecto dolores veritatis?</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./imgs/spotlight-header.jpg" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                      <h5>Spot Lights</h5>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et culpa, molestias provident architecto dolores veritatis?</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./imgs/led.jpg" alt="Fourth slide">
+              <div class="carousel-caption d-none d-md-block">
+                      <h5>LED Lights</h5>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et culpa, molestias provident architecto dolores veritatis?</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/smart lights/Bluetooth Smart Alarm Clock with Notification.jpg" alt="Fifth slide">
+              <div class="carousel-caption d-none d-md-block">
+                      <h5>Smart Lights</h5>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et culpa, molestias provident architecto dolores veritatis?</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      <!-- End of the Slide Show -->
+
+
+      <!-- start of the Home section Coding -->
+      <div class="home-section">
+        <div class="container p-1 p-sm-3">
+          <div class="row">
+            <div class="col-12 text text-center">
+              <h1>Trending Lights</h1>
+              <hr>
+            </div>
+
+            <div class="col-md-6 col-xl-6 col-sm-12 sizetoshrink">
+              <div class="card">
+              <img class="img-fluid home-image" src="./img/home/ceiling light.jpg" alt="Ceiling Light">
+              </div>
+            </div>
+
+            <div class="col-md-6 col-xl-6 col-sm-12 sizetoshrink">
+              <h2>Ceiling Lightings</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias at assumenda delectus! Minus distinctio reprehenderit at debitis dignissimos consectetur repellendus!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quos incidunt temporibus possimus, perspiciatis dolor eos cupiditate, libero officia blanditiis sint animi. Sequi amet nobis, alias ab tempore rerum nam.</p>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-md-6 col-xl-6 col-sm-12 sizetoshrink">
+              <h2>Wall Lightings</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias at assumenda delectus! Minus distinctio reprehenderit at debitis dignissimos consectetur repellendus!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quos incidunt temporibus possimus, perspiciatis dolor eos cupiditate, libero officia blanditiis sint animi. Sequi amet nobis, alias ab tempore rerum nam.</p>
+            </div>
+            
+            <div class="col-md-6 col-xl-6 col-sm-12 sizetoshrink">
+              <div class="card">
+              <img class="img-fluid home-image" src="./img/home/wall light.jpg" alt="Ceiling Light">
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+              <div class="col-md-6 col-xl-6 col-sm-12 sizetoshrink">
+                <div class="card">
+                <img class="img-fluid home-image" src="./img/home/outdoor light.jpg" alt="Ceiling Light">
+                </div>
+              </div>
+              <div class="col-md-6 col-xl-6 col-sm-12 sizetoshrink">
+                <h2>Outdoor Lightings</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias at assumenda delectus! Minus distinctio reprehenderit at debitis dignissimos consectetur repellendus!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quos incidunt temporibus possimus, perspiciatis dolor eos cupiditate, libero officia blanditiis sint animi. Sequi amet nobis, alias ab tempore rerum nam.</p>
+              </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-md-6 col-xl-6 col-sm-12 sizetoshrink">
+              <h2>Chandelier</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias at assumenda delectus! Minus distinctio reprehenderit at debitis dignissimos consectetur repellendus!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quos incidunt temporibus possimus, perspiciatis dolor eos cupiditate, libero officia blanditiis sint animi. Sequi amet nobis, alias ab tempore rerum nam.</p>
+            </div>
+            
+            <div class="col-md-6 col-xl-6 col-sm-12 sizetoshrink">
+              <div class="card">
+              <img class="img-fluid home-image" src="./img/home/chandlier.jpg" alt="Ceiling Light">
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="row new-arrival">
+            <div class="col-md-12 text-center sizetoshrink">
+              <span><img class="img-fluid new-arrival-gif" src="./img/home/new arrival.gif" alt="" height="98.8" width="377"></span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 sizetoshrink">
+              <div class="card">
+                <img class="img-fluid" src="./img/home/new bathroom lights.jpg" alt="New Bathroom Lights">
+              </div><br>
+              <h3>New Bathroom Lights <span class="badge badge-info">New</span></h3><br><br>
+            </div>
+            <div class="col-md-4 sizetoshrink">
+              <div class="card">
+                <img class="img-fluid" src="./img/home/new ceilling light.jpg" alt="New Ceilling Lights">
+              </div><br>
+              <h3>Ceilling Lights <span class="badge badge-info">New</span></h3><br><br>
+            </div>
+            <div class="col-md-4 sizetoshrink">
+              <div class="card">
+                <img class="img-fluid" src="./img/home/new chandelier.jpg" alt="New Chandelier Lights">
+              </div><br>
+              <h3>Chandelier <span class="badge badge-info">New</span></h3><br><br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 sizetoshrink">
+              <div class="card">
+                <img class="img-fluid" src="./img/home/new lamps _ shades.jpg" alt="New Lamps & Shades Lights">
+              </div><br>
+              <h3>Lamps & Shades Lights <span class="badge badge-info">New</span></h3><br><br>
+            </div>
+            <div class="col-md-4 sizetoshrink">
+              <div class="card">
+                <img class="img-fluid" src="./img/home/new outdoor lighting.jpg" alt="New Outdoor Lights">
+              </div><br>
+              <h3>Outdoor Lights <span class="badge badge-info">New</span></h3><br><br>
+            </div>
+            <div class="col-md-4 sizetoshrink">
+              <div class="card">
+                <img class="img-fluid" src="./img/home/new wall lighting.jpg" alt="New Wall Lights">
+              </div><br>
+              <h3>Wall Lights <span class="badge badge-info">New</span></h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 sizetoshrink">
+              <div class="card">
+                <img class="img-fluid" src="./img/home/library_staircase_room_light_wooden_39639_2560x1080.jpg" alt="New Lamps & Shades Lights">
+              </div><br>
+              <h3>Library Staircase Lights <span class="badge badge-info">New</span></h3><br><br>
+            </div>
+            <div class="col-md-4 sizetoshrink">
+              <div class="card">
+                <img class="img-fluid" src="./img/home/Studio Lighs for Youtuber.png" alt="New Outdoor Lights">
+              </div><br>
+              <h3>Studio Youtubers Lights <span class="badge badge-info">New</span></h3><br><br>
+            </div>
+            <div class="col-md-4 sizetoshrink">
+              <div class="card">
+                <img class="img-fluid" src="./img/home/Studio car Lights.jpg" alt="New Wall Lights">
+              </div><br>
+              <h3>Studio Cars Lights <span class="badge badge-info">New</span></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of the home section coding -->
+
+
+
+  <!-- Start of the footer of the page -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="mycontainer">
+        <div class="row footer-row">
+          <div class="col-lg-4 col-md-6 footer-info">
+            <a href="#" class="logoanchor"><h3><i class="fa fa-lightbulb logoicon"></i> Bright World</h3></a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quas, aut laborum eos officiis minima repudiandae modi qui.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 footer-contacts">
+            <h4>Follow Us</h4>
+            <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+            <a href="" class="google-plus"><i class="fab fa-google-plus"></i></a>
+            <a href="" class="linkedin"><i class="fab fa-linkedin"></i></a>
+          </div>
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Let you be upto date with our new Products and Offers.</p>
+            <form action="" method="POST" class="form-inline my-2 my-lg-0">
+              <input type="email" name="email" class="form-control mr-sm-2" placeholder="Enter Your Email...">
+              <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="copyright text-center">Copyright &copy;Bright World.2019</p>
+  </footer>
+  <!-- End of the footer of the page -->
+
+</body>
+<script>
+
+  // Script for making active the page li
+
+$('.navmenu').on('click','li',function(){
+    $('.navmenu li.active').removeClass('active');
+    $(this).addClass('active');
+});
+
+
+
+function loader(){
+  document.getElementsByTagName("body").style.backgroundImage = "url(img/Netflix_LoadTime.gif)";
+}
+</script>
+</html>

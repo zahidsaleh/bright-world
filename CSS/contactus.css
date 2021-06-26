@@ -1,0 +1,23 @@
+h2{
+    padding: 20px;
+    font-weight: bold;
+}
+p{
+    font-weight: 300;
+}
+.top-container{
+    background-color: white;
+}
+.form-section{
+    background-color: white;
+    position: relative;
+}
+h5{
+    font-weight: bold;
+}
+
+#map{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+}

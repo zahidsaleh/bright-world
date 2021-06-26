@@ -1,0 +1,232 @@
+/* start of header */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('../img/Netflix_LoadTime.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img.mylogo{
+    height: 30px;
+    width: 30px;
+}
+/* .address{
+    position: relative;
+    bottom: 100px;
+} */
+
+nav ul li a:hover,
+nav ul li a.active{
+    background: #0054bd;
+}
+.dropdown-menu{
+    background-color: rgba(0, 0, 0, 0.568);
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown-item:hover{
+    background-color:#0054bd;
+    color: white; 
+}
+@media(max-width: 768px){
+    nav ul li a{
+        text-align: center;
+    }
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;    
+}
+.container-fluid{
+    height: 170px;
+    padding: 10px 10px;
+    color: black;
+    background-color: #e9ecef;
+}
+.slogan{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+@media (max-width: 550px){
+    .headersizetochange{
+        font-size: 40px;
+    }
+    .parasizetochange{
+        font-size: 18px;
+    }
+}
+.menu{
+    background-color: rgba(0, 0, 0, 0.733);
+    color: rgb(255, 255, 255);
+}
+@media (max-width: 431px){
+    .headersizetochange{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .parasizetochange{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1030px){
+    span.tohide{
+        display: none;
+    }
+}
+@media(max-width: 880px){
+    .sizedec{
+        font-size: 10px;
+    }
+    button.sizedec{
+        font-size: 10px;
+    }
+}
+@media(max-width: 767px){
+    span.tohide{
+        display: block;
+    }
+}
+
+/* end of header */
+
+
+
+
+
+
+/* start of footer */
+
+.footer-top p{
+    color: #999;
+    line-height: 25px;
+    text-align: justify;
+}
+.footer h3,h4{
+    color: white;
+}
+.footer h3{
+    font-size: 18px;
+}
+.footer-top{
+    background: #111111;
+    padding: 30px 0px;
+}
+.footer-row{
+    background: #111111
+}
+.footer-info h3{
+    color: white;
+    letter-spacing: 3px;
+    margin: 10px 0px;
+    font-size: 25px;
+}
+.logoicon{
+    color: white;
+    font-size: 30px;
+
+}
+.logoicon:hover{
+    color:black;
+}
+.logoanchor:hover{
+    text-decoration: none;
+    
+}
+.footer-contacts h4{
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer-contacts a{
+    background: #494848;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.footer-contacts i{
+    font-size: 30px;
+    color: white;
+    padding: 15px 16px;
+    transition: .8s;
+}
+.footer-contacts i:hover{
+    color: black;
+    transition: .8s;
+    transform: scale(1.6);
+}
+.footer-contacts{
+    margin-top: 10px;
+}
+@media(max-width: 768px){
+    .footer-contacts{
+        margin-bottom: 20px;
+    }
+}
+.footer-newsletter{
+    margin-top: 10px;
+}
+.footer-newsletter h4{
+    text-transform: uppercase;
+}
+.footer-newsletter form input[type=submit]{
+    background: #c65039;
+    border: none;
+    padding: 3px 15px;
+    margin-left: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+@media(max-width: 1199px){
+    .footer-newsletter form input[type=submit]{
+        margin-top: 10px;
+        margin-left: 0px;
+        width: 215px;
+    }
+}
+@media(max-width: 767px){
+    .footer-newsletter form input[type=submit]{
+        width: auto;
+        margin-left: 5px;
+    }
+}
+.copyright{
+    background: black;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.copyright:hover{
+    cursor: default;
+}
+
+.mycontainer {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .mycontainer {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .mycontainer {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .mycontainer {
+      width: 1170px;
+    }
+  }
+
+/* end of footer */
